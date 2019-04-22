@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    background: rgba(90,135,234,0.5);
+}
+
+.navbar {
+    background: #5680e9;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-item {
+    background: transparent !important;
+}
+
+.landing-page {
+    padding-top: 6rem;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: #5680e9 !important;
+}
