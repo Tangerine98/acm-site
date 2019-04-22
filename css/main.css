@@ -18,9 +18,29 @@ body {
     justify-content: center;
 }
 
+.home-page-content {
+    position: absolute;
+    top: 30rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
 footer {
-    position: fixed;
+    padding-top: 3rem;
+    /*
+    position: absolute !important;
+    bottom: 0 !important;
+    */
     width: 100%;
     z-index: 1;
     background: #5680e9 !important;
+}
+
+.headings {
+    font-family: 'Raleway', sans-serif;
+}
+
+.content {
+    font-family: 'Merriweather', serif;
 }
