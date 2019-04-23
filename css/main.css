@@ -1,4 +1,4 @@
-body {
+.home-page {
     height: 100vh;
     background: rgba(90,135,234,0.5);
 }
@@ -15,6 +15,7 @@ body {
 
 .landing-page {
     padding-top: 6rem;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -26,14 +27,27 @@ body {
     z-index: 1;
 }
 
-footer {
-    padding-top: 3rem;
-    /*
+.testimonials-card {
+    margin-top: 4rem;
+    height: 15rem;
+    width: 100%;
+}
+
+.testimonials-card-in-mobile {
+    height: 40rem !important;
+}
+
+.footer {
     position: absolute !important;
-    bottom: 0 !important;
-    */
     width: 100%;
     z-index: 1;
+    background: #5680e9 !important;
+}
+
+.other-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background: #5680e9 !important;
 }
 
@@ -43,4 +57,14 @@ footer {
 
 .content {
     font-family: 'Merriweather', serif;
+}
+
+.about {
+    padding-top: 5rem;
+    font-size: 20px;
+}
+
+.about-in-mobile {
+    padding-left: 20px;
+    padding-right: 20px;
 }

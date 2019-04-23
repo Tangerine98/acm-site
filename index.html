@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/particles.css">
+    <link rel="stylesheet" href="css/testimonials.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="home-page">
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item  has-text-white" href="#home"><span class="has-text-weight-semibold">ACM</span> STUDENT CHAPTER FISAT</a>
+        <a class="navbar-item headings has-text-white" href="#home"><span class="has-text-weight-semibold">ACM</span> STUDENT CHAPTER FISAT</a>
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -23,11 +24,11 @@
       <div id="navbar" class="navbar-menu">
         <div class="navbar-end">
 	        <div class="navbar-start pullDown">
-            <a class="navbar-item has-text-white has-text-centered" href="#"><p>Home</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#"><p>About</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#"><p>Events</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#"><p>Contact Us</p></a>
-            <a class="navbar-item has-text-white has-text-centered" href="#"><p>Gallery</p></a>
+            <a class="navbar-item has-text-white has-text-centered headings" href="#"><p>Home</p></a>
+            <a class="navbar-item has-text-white has-text-centered headings" href="about.html"><p>About</p></a>
+            <a class="navbar-item has-text-white has-text-centered headings" href="#"><p>Events</p></a>
+            <a class="navbar-item has-text-white has-text-centered headings" href="#"><p>Contact Us</p></a>
+            <a class="navbar-item has-text-white has-text-centered headings" href="#"><p>Gallery</p></a>
           </div>
         </div>
       </div>
@@ -38,19 +39,27 @@
           <figure>
             <img id="acm-banner" src="img/banner.png">
           </figure>
-            <!--
-            <div class="card" style="margin-top: 4rem;">
-              <div class="card-content">
-                <p class="content">
-                  “When I signed up to become a volunteer for the ACM FISAT student chapter never did I expect that it was going to be a ride of a lifetime. Words aren't enough to express the opportunities ACM has given me while I was student which helped me leverage all the benefits of it. It was an amazing experience.”
-                </p>
-                <p class="content has-text-right">
-                  - Visakh Ajith
-                </p>
+          <div class="card testimonials-card">
+            <div class="slider">
+              <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+              <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+              <div class="slider__inner">
+                <div class="slider__contents">
+                  <p class="slider__txt has-text-centered">
+                    “When I signed up to become a volunteer for the ACM FISAT student chapter never did I expect that it was going to be a ride of a lifetime. Words aren't enough to express the opportunities ACM has given me while I was student which helped me leverage all the benefits of it. It was an amazing experience.”<br><br>
+                    - Visakh Ajith
+                  </p>
+                </div>
+                <div class="slider__contents">
+                  <p class="slider__txt">
+                    "Since it's inception, ACM Student Chapter of FISAT is focused on the technical development of it's members, computing enthusiasts as well as students in general. It was a great privilege to be a part of it's journey and always look forward to see the chapter achieving new heights, promoting computing and facilitating innovation"<br><br>
+                    - Anand J</p>
+                </div>
+                <div class="slider__contents"></div>
+                <div class="slider__contents"></div>
               </div>
             </div>
-            -->
-            
+          </div>
         </div>
         <!-- particles.js container -->
         <div id="particles-js"></div>
@@ -255,7 +264,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/particles.js"></script>
-    <script src="js/landing-page.js"></script>
+    <script src="js/testimonials.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuuU1CLP8qBFCrkXJU6fNRftZyqs7jeAI&callback=initMap">
     </script>
