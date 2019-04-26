@@ -9,6 +9,12 @@
     z-index: 1;
 }
 
+
+.navbar-menu {
+    background: #5680e9 !important;
+}
+
+
 .navbar-item {
     background: transparent !important;
 }
